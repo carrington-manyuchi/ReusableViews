@@ -11,6 +11,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ads: AdsProductsView!
     
+    @IBOutlet weak var adsBottoms: AdsProductsView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

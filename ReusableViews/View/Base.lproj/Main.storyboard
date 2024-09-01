@@ -32,18 +32,27 @@
                                     <constraint firstItem="Gzz-FS-cwL" firstAttribute="top" secondItem="sGN-HF-7FA" secondAttribute="top" constant="128" id="04O-LA-8bX"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIN-aE-kYG" customClass="AdsProductsView" customModule="ReusableViews" customModuleProvider="target">
+                                <rect key="frame" x="16" y="362" width="361" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gIN-aE-kYG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FEn-xr-Ak1"/>
+                            <constraint firstItem="gIN-aE-kYG" firstAttribute="top" secondItem="sGN-HF-7FA" secondAttribute="bottom" constant="28" id="Fj8-Pa-v0X"/>
                             <constraint firstItem="sGN-HF-7FA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ZuS-Q9-RUJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGN-HF-7FA" secondAttribute="trailing" id="jUU-yP-0I0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sGN-HF-7FA" secondAttribute="bottom" constant="484" id="rmA-fL-ZKO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gIN-aE-kYG" secondAttribute="trailing" constant="16" id="qFG-7Y-BDI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gIN-aE-kYG" secondAttribute="bottom" constant="328" id="rOz-4M-Clf"/>
+                            <constraint firstItem="gIN-aE-kYG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="raA-1z-y84"/>
                             <constraint firstItem="sGN-HF-7FA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zTM-ri-BmS"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="ads" destination="Gzz-FS-cwL" id="ryl-fD-ay3"/>
+                        <outlet property="adsBottoms" destination="gIN-aE-kYG" id="YVs-nN-Fdt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
