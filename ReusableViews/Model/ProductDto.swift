@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ProductDto {
+    var id: Int?
+    var name: String?
+    var desc: String?
+    
+    required init?() {}
+}

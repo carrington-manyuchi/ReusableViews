@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AdInventoryCardCollectionViewCell" customModule="ReusableViews" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AdsCell" id="gTV-IL-0wX" customClass="AdsCell" customModule="ReusableViews" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="328" height="74"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -55,9 +55,9 @@
                 <constraint firstAttribute="trailing" secondItem="RIS-qZ-r9v" secondAttribute="trailing" id="g6J-7q-B2g"/>
             </constraints>
             <connections>
-                <outlet property="adsInventoryImageView" destination="n9n-yd-WZi" id="IVB-pU-3x4"/>
-                <outlet property="adsInventoryMainCardView" destination="RIS-qZ-r9v" id="lid-d4-uDe"/>
-                <outlet property="adsInventoryProductDescriptionLabel" destination="yKb-lK-y2Z" id="bu9-Nd-Y6g"/>
+                <outlet property="adsInventoryImageView" destination="n9n-yd-WZi" id="nQP-4e-Lhg"/>
+                <outlet property="adsInventoryMainCardView" destination="RIS-qZ-r9v" id="Nxt-9a-AoS"/>
+                <outlet property="adsInventoryProductDescriptionLabel" destination="yKb-lK-y2Z" id="QyO-sx-MHJ"/>
             </connections>
             <point key="canvasLocation" x="130" y="-62"/>
         </collectionViewCell>

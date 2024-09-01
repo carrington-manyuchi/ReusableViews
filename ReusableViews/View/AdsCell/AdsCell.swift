@@ -7,11 +7,11 @@
 
 import UIKit
 
-class AdInventoryCardCollectionViewCell: UICollectionViewCell {
+class AdsCell: UICollectionViewCell {
     
-     @IBOutlet weak private var adsInventoryMainCardView: UIView!
-     @IBOutlet  weak private var adsInventoryProductDescriptionLabel: UILabel?
-     @IBOutlet weak private var adsInventoryImageView: UIImageView?
+     @IBOutlet weak  var adsInventoryMainCardView: UIView!
+     @IBOutlet  weak var adsInventoryProductDescriptionLabel: UILabel?
+     @IBOutlet weak  var adsInventoryImageView: UIImageView?
     
     override func awakeFromNib() {
         super.awakeFromNib()

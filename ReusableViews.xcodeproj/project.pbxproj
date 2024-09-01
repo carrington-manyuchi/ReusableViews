@@ -18,6 +18,7 @@
 		E611010D2C8452A700578E50 /* AdsProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E611010C2C8452A700578E50 /* AdsProductsView.swift */; };
 		E611010F2C8452B900578E50 /* AdsProductsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E611010E2C8452B900578E50 /* AdsProductsView.xib */; };
 		E61101122C8456D600578E50 /* AdsProductsViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61101112C8456D600578E50 /* AdsProductsViewViewController.swift */; };
+		E61101152C846A2300578E50 /* ProductDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61101142C846A2300578E50 /* ProductDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E611010C2C8452A700578E50 /* AdsProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsProductsView.swift; sourceTree = "<group>"; };
 		E611010E2C8452B900578E50 /* AdsProductsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsProductsView.xib; sourceTree = "<group>"; };
 		E61101112C8456D600578E50 /* AdsProductsViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsProductsViewViewController.swift; sourceTree = "<group>"; };
+		E61101142C846A2300578E50 /* ProductDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		E61100F12C844B3C00578E50 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				E61101132C846A0F00578E50 /* Model */,
 				E61101102C84569A00578E50 /* Controllers */,
 				E61101072C844C2300578E50 /* View */,
 				E61100F22C844B3C00578E50 /* AppDelegate.swift */,
@@ -104,6 +107,14 @@
 				E61101112C8456D600578E50 /* AdsProductsViewViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E61101132C846A0F00578E50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E61101142C846A2300578E50 /* ProductDto.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61100F72C844B3C00578E50 /* ViewController.swift in Sources */,
+				E61101152C846A2300578E50 /* ProductDto.swift in Sources */,
 				E61100F32C844B3C00578E50 /* AppDelegate.swift in Sources */,
 				E61101122C8456D600578E50 /* AdsProductsViewViewController.swift in Sources */,
 				E611010D2C8452A700578E50 /* AdsProductsView.swift in Sources */,
